@@ -1,0 +1,106 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+body{
+
+    width: 100%;
+    min-width: 100vw;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 80vh;
+    margin-top: 90px;
+    background-color: #000;
+}
+
+.alinhador{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.alinhador2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    color: #fff;
+
+}
+
+.alinhador3{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 10%;
+    padding-left: 6px;
+    color: #fff;
+
+}
+
+h4{
+
+    margin-bottom: 15px;
+}
+
+#soma{
+
+    width: 300px;
+    margin-top: 10px;
+}
+
+#atualizar-saldo, #limpar-saldo{
+
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+h1{
+
+    font-weight: 800;
+    margin-top: 5px;
+    
+}
+
+h2{
+
+    font-size: 16px;
+}
+
+button{
+
+    border-radius: 5px;
+    padding: 5px;
+    color: #000;
+    background-color: #fff;
+}
